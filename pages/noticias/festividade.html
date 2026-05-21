@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festividade — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #8b5e3c, #e8a838);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <a href="../../pages/header/noticias.html">Notícias</a>
+          <span>›</span>
+          <span>Festividade</span>
+        </div>
+        <h1>Início da Festividade</h1>
+        <p>Novenas de Nossa Senhora do Desterro começam em junho.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../pages/header/noticias.html" class="back-home">← Voltar para notícias</a>
+
+        <div class="content-card">
+          <p><strong>1 de Maio de 2026</strong></p>
+          <p>
+            A comunidade da Vila Melancial já se prepara para a tradicional festividade em honra 
+            a Nossa Senhora do Desterro, padroeira da vila. As novenas terão início no dia 12 de 
+            junho e se estenderão por nove noites de oração e confraternização.
+          </p>
+          <p>
+            A festa é um dos eventos mais importantes do calendário local, reunindo moradores, 
+            familiares e visitantes das comunidades vizinhas. A programação inclui missas, 
+            procissões, shows, barracas de comidas típicas e leilões beneficentes.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>Programação</h3>
+          <ul>
+            <li><strong>12 a 20 de junho</strong> — Novenas às 19h na Igreja de Nossa Senhora do Desterro</li>
+            <li><strong>21 de junho</strong> — Missa solene e procissão pelas ruas da vila</li>
+            <li><strong>21 de junho</strong> — Arraial festivo com shows e barracas</li>
+          </ul>
+        </div>
+
+        <div class="content-card">
+          <h3>Participe</h3>
+          <p>
+            Todos são bem-vindos para celebrar conosco! Venha conhecer a fé e a alegria do povo 
+            da Vila Melancial. Traga sua família e participe deste momento especial de nossa comunidade.
+          </p>
+        <div class="photo-gallery">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Procissão</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Missas e novenas</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Arraial festivo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

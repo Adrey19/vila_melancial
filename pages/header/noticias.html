@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notícias — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html" class="active">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #0a1628, #1a8a9e);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <span>Notícias</span>
+        </div>
+        <h1>Notícias da Vila</h1>
+        <p>Fique por dentro dos acontecimentos e novidades da comunidade.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../index.html" class="back-home">← Voltar para início</a>
+
+        <div class="news-list">
+          <a href="../../pages/noticias/ponte.html" class="card-link-wrapper">
+            <article class="news-list-item">
+              <img
+                src="https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Construção da Ponte"
+              />
+              <div class="news-list-body">
+                <span class="date">15 de Maio de 2026</span>
+                <h3>Construção da Ponte</h3>
+                <p>As obras da nova ponte da Vila Melancial avançam em ritmo acelerado, prometendo melhorar o acesso e a mobilidade de moradores e visitantes.</p>
+                <span class="card-link">Leia mais</span>
+              </div>
+            </article>
+          </a>
+
+          <a href="../../pages/noticias/salao.html" class="card-link-wrapper">
+            <article class="news-list-item">
+              <img
+                src="https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Reforma do Salão Comunitário"
+              />
+              <div class="news-list-body">
+                <span class="date">8 de Maio de 2026</span>
+                <h3>Reforma do Salão Comunitário</h3>
+                <p>O salão comunitário está passando por uma reforma completa na cozinha, graças ao esforço conjunto da associação de moradores.</p>
+                <span class="card-link">Leia mais</span>
+              </div>
+            </article>
+          </a>
+
+          <a href="../../pages/noticias/festividade.html" class="card-link-wrapper">
+            <article class="news-list-item">
+              <img
+                src="https://images.pexels.com/photos/355948/pexels-photo-355948.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Festividade de Nossa Senhora do Desterro"
+              />
+              <div class="news-list-body">
+                <span class="date">1 de Maio de 2026</span>
+                <h3>Início da Festividade</h3>
+                <p>No dia 12 de junho terão início as novenas da festividade de Nossa Senhora do Desterro, padroeira da Vila Melancial.</p>
+                <span class="card-link">Leia mais</span>
+              </div>
+            </article>
+          </a>
+        <div class="photo-gallery">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Cobertura de eventos</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Entrevistas</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Registros da comunidade</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

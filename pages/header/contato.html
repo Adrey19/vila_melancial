@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html" class="active">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #0a1628, #1a8a9e);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <span>Contato</span>
+        </div>
+        <h1>Entre em Contato</h1>
+        <p>Tem alguma dúvida ou quer saber mais sobre a Vila Melancial? Fale conosco.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../index.html" class="back-home">← Voltar para início</a>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Informações</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Endereço</h4>
+                <p>Vila Melancial, Oeiras do Pará — PA</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>E-mail</h4>
+                <p>contato@vilamelancial.com.br</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Telefone</h4>
+                <p>(91) 99999-0000</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4>Horário de Atendimento</h4>
+                <p>Seg a Sex: 8h — 12h | 14h — 17h</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3>Envie sua Mensagem</h3>
+            <form>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Seu nome completo" />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <select id="assunto">
+                  <option>Informações</option>
+                  <option>Eventos</option>
+                  <option>Turismo</option>
+                  <option>Sugestões</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Escreva sua mensagem..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-green">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+        <div class="photo-gallery" style="margin-top: 40px;">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Nossa localização</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Equipe da vila</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Bem-vindos à vila</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

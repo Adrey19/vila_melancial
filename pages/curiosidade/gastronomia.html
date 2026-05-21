@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gastronomia — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #8b5e3c, #e8a838);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <a href="../../index.html#curiosidades">Curiosidades</a>
+          <span>›</span>
+          <span>Gastronomia</span>
+        </div>
+        <h1>Gastronomia da Vila</h1>
+        <p>Sabores autênticos da culinária amazônica.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../index.html" class="back-home">← Voltar para início</a>
+
+        <div class="content-card">
+          <h2>Culinária Tradicional</h2>
+          <p>
+            A gastronomia da Vila Melancial é um reflexo da rica cultura amazônica. Os pratos típicos 
+            são preparados com ingredientes frescos e regionais, como peixes de água doce, frutas 
+            nativas e mandioca.
+          </p>
+          <p>
+            A culinária local é conhecida por seus sabores marcantes e pelo uso de ingredientes como 
+            o tucupi, o jambu e o açaí, que fazem parte do dia a dia das famílias da vila.
+          </p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <img class="card-image" src="https://images.pexels.com/photos/458765/pexels-photo-458765.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pato no Tucupi" />
+            <div class="card-body">
+              <h3>Pato no Tucupi</h3>
+              <p>Prato típico paraense feito com pato cozido no tucupi e jambu.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-image" src="https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Maniçoba" />
+            <div class="card-body">
+              <h3>Maniçoba</h3>
+              <p>Prato à base de folhas de mandioca cozidas com carnes defumadas.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-image" src="https://images.pexels.com/photos/1123250/pexels-photo-1123250.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Peixe Frito" />
+            <div class="card-body">
+              <h3>Peixe Frito com Açaí</h3>
+              <p>Peixe fresco frito acompanhado de açaí puro, uma combinação tradicional.</p>
+            </div>
+          </div>
+        <div class="photo-gallery">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Pratos típicos</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Frutas regionais</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Preparação artesanal</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

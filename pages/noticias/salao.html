@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reforma do Salão — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #0a1628, #8b5e3c);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <a href="../../pages/header/noticias.html">Notícias</a>
+          <span>›</span>
+          <span>Reforma do Salão</span>
+        </div>
+        <h1>Reforma do Salão Comunitário</h1>
+        <p>Melhorias na cozinha do espaço de confraternização da vila.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../pages/header/noticias.html" class="back-home">← Voltar para notícias</a>
+
+        <div class="content-card">
+          <p><strong>8 de Maio de 2026</strong></p>
+          <p>
+            O salão comunitário da Vila Melancial está passando por uma reforma completa em sua 
+            cozinha. A iniciativa partiu da associação de moradores, que identificou a necessidade 
+            de modernizar o espaço utilizado em festas, reuniões e eventos da comunidade.
+          </p>
+          <p>
+            A reforma inclui a instalação de novos armários, bancadas, pia industrial e fogão, 
+            além de melhorias na parte elétrica e hidráulica. O objetivo é oferecer um espaço 
+            mais funcional e seguro para os eventos comunitários.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>Próximos Passos</h3>
+          <p>
+            Após a conclusão da reforma da cozinha, a associação planeja iniciar melhorias no 
+            salão principal, incluindo pintura, novo piso e iluminação. A comunidade está engajada 
+            e contribui com doações e mutirões para acelerar as obras.
+          </p>
+        <div class="photo-gallery">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Antes da reforma</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Obras em andamento</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Resultado final</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

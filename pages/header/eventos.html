@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html" class="active">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #8b5e3c, #e8a838);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <span>Eventos</span>
+        </div>
+        <h1>Eventos</h1>
+        <p>Confira a agenda de eventos e festividades da comunidade.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../index.html" class="back-home">← Voltar para início</a>
+
+        <div class="content-card">
+          <h3>📅 Festividade de Nossa Senhora do Desterro</h3>
+          <p><strong>Data:</strong> 12 a 21 de junho</p>
+          <p>
+            A principal festa religiosa da vila, com novenas, procissões, apresentações culturais e 
+            programação social. A comunidade se reúne para celebrar a padroeira com fé e devoção.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>⚽ Campeonato de Futebol do Botafogo</h3>
+          <p><strong>Data:</strong> Julho (a confirmar)</p>
+          <p>
+            Torneio anual organizado pela Associação Esportiva Clube Botafogo — Melancial, reunindo 
+            times da vila e de comunidades vizinhas.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>🎉 Festa do Melancial</h3>
+          <p><strong>Data:</strong> Agosto (a confirmar)</p>
+          <p>
+            Festival gastronômico e cultural celebrando a tradição da vila, com comidas típicas, 
+            música ao vivo e brincadeiras para toda a família.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>🛶 Regata Fluvial</h3>
+          <p><strong>Data:</strong> Setembro (a confirmar)</p>
+          <p>
+            Competição de barcos e canoas no rio, promovendo o esporte e a integração entre os 
+            moradores das comunidades ribeirinhas.
+          </p>
+        <div class="photo-gallery photo-gallery-4">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Festa da padroeira</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Campeonato de futebol</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Festa do Melancial</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Regata fluvial</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posto de Saúde — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #0a1628, #1a8a9e);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <span>Posto de Saúde</span>
+        </div>
+        <h1>P.S. Melancial</h1>
+        <p>Atendimento básico de saúde para a comunidade.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../index.html" class="back-home">← Voltar para início</a>
+
+        <div class="content-card">
+          <h2>Posto de Saúde da Vila</h2>
+          <p>
+            O Posto de Saúde Melancial é a principal unidade de atendimento médico da comunidade. 
+            Vinculado à rede municipal de saúde de Oeiras do Pará, o posto oferece serviços 
+            essenciais de atenção básica para moradores de todas as idades.
+          </p>
+          <p>
+            A equipe é composta por profissionais dedicados que realizam atendimentos médicos, 
+            de enfermagem e ações de prevenção e promoção da saúde.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>Serviços Oferecidos</h3>
+          <ul>
+            <li>Consultas médicas gerais</li>
+            <li>Atendimento de enfermagem</li>
+            <li>Vacinação (imunização)</li>
+            <li>Aferição de pressão e glicemia</li>
+            <li>Curativos e procedimentos básicos</li>
+            <li>Distribuição de medicamentos</li>
+            <li>Pré-natal e puericultura</li>
+            <li>Programas de saúde da família</li>
+          </ul>
+        </div>
+
+        <div class="content-card">
+          <h3>Horário de Funcionamento</h3>
+          <ul>
+            <li><strong>Segunda a Sexta:</strong> 8h — 12h | 14h — 17h</li>
+          </ul>
+        <div class="photo-gallery">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Fachada do posto</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Equipe de saúde</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>

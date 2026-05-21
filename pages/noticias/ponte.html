@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Construção da Ponte — Vila Melancial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <h1>Vila Melancial</h1>
+          <span>Um lugar abençoado</span>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="../../pages/header/historia.html">História</a></li>
+            <li><a href="../../pages/header/noticias.html">Notícias</a></li>
+            <li><a href="../../pages/header/turismo.html">Turismo</a></li>
+            <li><a href="../../pages/header/eventos.html">Eventos</a></li>
+            <li><a href="../../pages/header/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(135deg, #0a1628, #1a8a9e);">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="../../index.html">Início</a>
+          <span>›</span>
+          <a href="../../pages/header/noticias.html">Notícias</a>
+          <span>›</span>
+          <span>Construção da Ponte</span>
+        </div>
+        <h1>Construção da Ponte</h1>
+        <p>Obras avançam na nova ponte da Vila Melancial.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <a href="../../pages/header/noticias.html" class="back-home">← Voltar para notícias</a>
+
+        <div class="content-card">
+          <p><strong>15 de Maio de 2026</strong></p>
+          <p>
+            As obras de construção da nova ponte da Vila Melancial seguem em ritmo acelerado. A 
+            estrutura, que ligará as duas margens do rio, representa um marco importante para o 
+            desenvolvimento da comunidade.
+          </p>
+          <p>
+            A ponte facilitará o acesso de moradores, estudantes e trabalhadores, além de melhorar 
+            o escoamento da produção agrícola local. A previsão de conclusão das obras é para o 
+            segundo semestre deste ano.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>Impacto na Comunidade</h3>
+          <p>
+            A ponte trará benefícios significativos para a Vila Melancial, incluindo:
+          </p>
+          <ul>
+            <li>Redução no tempo de deslocamento</li>
+            <li>Melhoria na segurança durante o período chuvoso</li>
+            <li>Facilidade no transporte de mercadorias</li>
+            <li>Acesso mais rápido a serviços de saúde e educação</li>
+          </ul>
+        <div class="photo-gallery">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Início das obras</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Estrutura da ponte</p>
+          </div>
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">📷</span>
+            <p>Equipe de construção</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vila Melancial</h3>
+            <span>Oeiras do Pará • PA</span>
+          </div>
+          <div class="footer-links">
+            <a href="../../pages/header/historia.html">História</a>
+            <a href="../../pages/header/noticias.html">Notícias</a>
+            <a href="../../pages/header/turismo.html">Turismo</a>
+            <a href="../../pages/header/eventos.html">Eventos</a>
+            <a href="../../pages/header/contato.html">Contato</a>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 — Vila Melancial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navList').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>
