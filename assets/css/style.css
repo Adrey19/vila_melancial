@@ -484,6 +484,18 @@ ul {
   margin-top: 4px;
 }
 
+/* ===== ASSOCIAÇÃO LOGO ===== */
+.assoc-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  display: block;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
 /* ===== HERO SMALL (inner pages) ===== */
 .page-hero {
   position: relative;
