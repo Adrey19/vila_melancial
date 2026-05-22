@@ -855,6 +855,19 @@ ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.photo-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: var(--shadow-lg);
+}
+
 .photo-placeholder {
   aspect-ratio: 4 / 3;
   border: 2px dashed var(--gray-light);
